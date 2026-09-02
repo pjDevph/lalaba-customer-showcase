@@ -4,6 +4,8 @@ The Expo/React Native app customers use to find laundry providers, book pickup/d
 
 Talks to the [Lalaba backend](https://github.com/pjDevph/lalaba-backend-showcase) over GraphQL — its sibling is the [Partner app](https://github.com/pjDevph/lalaba-partner-showcase), which providers and staff use.
 
+<p align="center"><img src="docs/screenshots/app.jpg" width="60%" alt="Lalaba customer app" /></p>
+
 ## Stack
 
 Expo (React Native, `expo-router`) · Firebase Auth (JS SDK) + App Check · Google Maps (`react-native-maps`) for provider discovery · a custom fetch-based GraphQL client — deliberately no Apollo/codegen, kept thin on purpose.
